@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8FBDBAAAB58D03FB5BB194A7F5231422"
-               BuildableName = "Cartography.framework"
-               BlueprintName = "Cartography"
+               BlueprintIdentifier = "82AE66E9B7283F8080EB5D81125C8B2F"
+               BuildableName = "Pods_VanessaPodTests.framework"
+               BlueprintName = "Pods-VanessaPodTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8453814E7334202CC29C12F989384973"
-               BuildableName = "libPods-VanessaPod.a"
+               BuildableName = "Pods_VanessaPod.framework"
                BlueprintName = "Pods-VanessaPod"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -20,6 +20,8 @@ public final class CreateView {
             return view
         }()
         
+        view.addSubview(label)
+        
         constrain(label, view) { label, view in
             label.top == view.top + 16.0
             label.leading == view.leading + 8.0

@@ -3,15 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		164B4D2A4AB3FBA2B5E3F4A0 /* libPods-VanessaPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */; };
+		41D3C32EB970F34C83BCD819 /* Pods_VanessaPodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ED2162C025D471E84105A5 /* Pods_VanessaPodTests.framework */; };
 		A480D707265EC38A0094E460 /* VanessaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A480D6FD265EC3890094E460 /* VanessaPod.framework */; };
 		A480D70C265EC38A0094E460 /* VanessaPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480D70B265EC38A0094E460 /* VanessaPodTests.swift */; };
 		A480D70E265EC38A0094E460 /* VanessaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = A480D700265EC3890094E460 /* VanessaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A480D718265EC4570094E460 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480D717265EC4570094E460 /* CreateView.swift */; };
+		F3A7222BF6829D6A318B38EB /* Pods_VanessaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8791BA50A0C642A02FE27591 /* Pods_VanessaPod.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,7 +26,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DAC21017980F7C610E3E67A /* Pods-VanessaPodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPodTests.release.xcconfig"; path = "Target Support Files/Pods-VanessaPodTests/Pods-VanessaPodTests.release.xcconfig"; sourceTree = "<group>"; };
+		45ED2162C025D471E84105A5 /* Pods_VanessaPodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanessaPodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5859AE99DE3B5C9376EBFB28 /* Pods-VanessaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPod.release.xcconfig"; path = "Target Support Files/Pods-VanessaPod/Pods-VanessaPod.release.xcconfig"; sourceTree = "<group>"; };
+		8791BA50A0C642A02FE27591 /* Pods_VanessaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanessaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A480D6FD265EC3890094E460 /* VanessaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VanessaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A480D700265EC3890094E460 /* VanessaPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VanessaPod.h; sourceTree = "<group>"; };
 		A480D701265EC3890094E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,7 +37,7 @@
 		A480D70B265EC38A0094E460 /* VanessaPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanessaPodTests.swift; sourceTree = "<group>"; };
 		A480D70D265EC38A0094E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A480D717265EC4570094E460 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
-		A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VanessaPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD773E31B839F306FA278827 /* Pods-VanessaPodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPodTests.debug.xcconfig"; path = "Target Support Files/Pods-VanessaPodTests/Pods-VanessaPodTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD2A9D77CB632169E1ACEFF0 /* Pods-VanessaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPod.debug.xcconfig"; path = "Target Support Files/Pods-VanessaPod/Pods-VanessaPod.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164B4D2A4AB3FBA2B5E3F4A0 /* libPods-VanessaPod.a in Frameworks */,
+				F3A7222BF6829D6A318B38EB /* Pods_VanessaPod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A480D707265EC38A0094E460 /* VanessaPod.framework in Frameworks */,
+				41D3C32EB970F34C83BCD819 /* Pods_VanessaPodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 			children = (
 				CD2A9D77CB632169E1ACEFF0 /* Pods-VanessaPod.debug.xcconfig */,
 				5859AE99DE3B5C9376EBFB28 /* Pods-VanessaPod.release.xcconfig */,
+				AD773E31B839F306FA278827 /* Pods-VanessaPodTests.debug.xcconfig */,
+				2DAC21017980F7C610E3E67A /* Pods-VanessaPodTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -108,7 +115,8 @@
 		EAED25BF6107EF5A4D0C4BAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */,
+				8791BA50A0C642A02FE27591 /* Pods_VanessaPod.framework */,
+				45ED2162C025D471E84105A5 /* Pods_VanessaPodTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A480D714265EC38A0094E460 /* Build configuration list for PBXNativeTarget "VanessaPodTests" */;
 			buildPhases = (
+				588120E2D13B6174F18E25B6 /* [CP] Check Pods Manifest.lock */,
 				A480D702265EC38A0094E460 /* Sources */,
 				A480D703265EC38A0094E460 /* Frameworks */,
 				A480D704265EC38A0094E460 /* Resources */,
+				3F9BC1C78577D3C98C17B523 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,6 +229,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3F9BC1C78577D3C98C17B523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VanessaPodTests/Pods-VanessaPodTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VanessaPodTests/Pods-VanessaPodTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VanessaPodTests/Pods-VanessaPodTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588120E2D13B6174F18E25B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VanessaPodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C1CEF42D5A1929070662D9EA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,9 +495,15 @@
 		};
 		A480D715265EC38A0094E460 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD773E31B839F306FA278827 /* Pods-VanessaPodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cartography\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSSnapshotTestCase\"",
+				);
 				INFOPLIST_FILE = VanessaPodTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,9 +519,15 @@
 		};
 		A480D716265EC38A0094E460 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DAC21017980F7C610E3E67A /* Pods-VanessaPodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(PLATFORM_DIR)/Developer/Library/Frameworks\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cartography\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/iOSSnapshotTestCase\"",
+				);
 				INFOPLIST_FILE = VanessaPodTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,16 +1,24 @@
 PODS:
   - Cartography (3.1.0)
+  - iOSSnapshotTestCase (5.0.2):
+    - iOSSnapshotTestCase/SwiftSupport (= 5.0.2)
+  - iOSSnapshotTestCase/Core (5.0.2)
+  - iOSSnapshotTestCase/SwiftSupport (5.0.2):
+    - iOSSnapshotTestCase/Core
 
 DEPENDENCIES:
   - Cartography (~> 3.0)
+  - iOSSnapshotTestCase
 
 SPEC REPOS:
   trunk:
     - Cartography
+    - iOSSnapshotTestCase
 
 SPEC CHECKSUMS:
   Cartography: 1988b7578871a56c036e7af17195cb2190edf18c
+  iOSSnapshotTestCase: 2d51aa06775e95cecb0a1fb9c5c159ccd1dd4596
 
-PODFILE CHECKSUM: 9810623e57bce3786f0cb5d5b0600911947ba39f
+PODFILE CHECKSUM: 97a0558917333ba8fe34788297b40e0c088966c1
 
 COCOAPODS: 1.10.0
