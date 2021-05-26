@@ -4,6 +4,8 @@ import UIKit
 
 public final class CreateView {
     
+    public init() {}
+    
     public func createViewWithText(_ text: String) -> UIView {
         
         let label: UILabel = {
