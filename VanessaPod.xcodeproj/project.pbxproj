@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		164B4D2A4AB3FBA2B5E3F4A0 /* libPods-VanessaPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */; };
+		A480D707265EC38A0094E460 /* VanessaPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A480D6FD265EC3890094E460 /* VanessaPod.framework */; };
+		A480D70C265EC38A0094E460 /* VanessaPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480D70B265EC38A0094E460 /* VanessaPodTests.swift */; };
+		A480D70E265EC38A0094E460 /* VanessaPod.h in Headers */ = {isa = PBXBuildFile; fileRef = A480D700265EC3890094E460 /* VanessaPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A480D718265EC4570094E460 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A480D717265EC4570094E460 /* CreateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A480D708265EC38A0094E460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A480D6F4265EC3890094E460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A480D6FC265EC3890094E460;
+			remoteInfo = VanessaPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5859AE99DE3B5C9376EBFB28 /* Pods-VanessaPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPod.release.xcconfig"; path = "Target Support Files/Pods-VanessaPod/Pods-VanessaPod.release.xcconfig"; sourceTree = "<group>"; };
+		A480D6FD265EC3890094E460 /* VanessaPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VanessaPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A480D700265EC3890094E460 /* VanessaPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VanessaPod.h; sourceTree = "<group>"; };
+		A480D701265EC3890094E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A480D706265EC38A0094E460 /* VanessaPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanessaPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A480D70B265EC38A0094E460 /* VanessaPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanessaPodTests.swift; sourceTree = "<group>"; };
+		A480D70D265EC38A0094E460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A480D717265EC4570094E460 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VanessaPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A9D77CB632169E1ACEFF0 /* Pods-VanessaPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VanessaPod.debug.xcconfig"; path = "Target Support Files/Pods-VanessaPod/Pods-VanessaPod.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A480D6FA265EC3890094E460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				164B4D2A4AB3FBA2B5E3F4A0 /* libPods-VanessaPod.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A480D703265EC38A0094E460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480D707265EC38A0094E460 /* VanessaPod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E5509CB40034491F98C9066 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A9D77CB632169E1ACEFF0 /* Pods-VanessaPod.debug.xcconfig */,
+				5859AE99DE3B5C9376EBFB28 /* Pods-VanessaPod.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A480D6F3265EC3890094E460 = {
+			isa = PBXGroup;
+			children = (
+				A480D6FF265EC3890094E460 /* VanessaPod */,
+				A480D70A265EC38A0094E460 /* VanessaPodTests */,
+				A480D6FE265EC3890094E460 /* Products */,
+				9E5509CB40034491F98C9066 /* Pods */,
+				EAED25BF6107EF5A4D0C4BAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A480D6FE265EC3890094E460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A480D6FD265EC3890094E460 /* VanessaPod.framework */,
+				A480D706265EC38A0094E460 /* VanessaPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A480D6FF265EC3890094E460 /* VanessaPod */ = {
+			isa = PBXGroup;
+			children = (
+				A480D700265EC3890094E460 /* VanessaPod.h */,
+				A480D701265EC3890094E460 /* Info.plist */,
+				A480D717265EC4570094E460 /* CreateView.swift */,
+			);
+			path = VanessaPod;
+			sourceTree = "<group>";
+		};
+		A480D70A265EC38A0094E460 /* VanessaPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A480D70B265EC38A0094E460 /* VanessaPodTests.swift */,
+				A480D70D265EC38A0094E460 /* Info.plist */,
+			);
+			path = VanessaPodTests;
+			sourceTree = "<group>";
+		};
+		EAED25BF6107EF5A4D0C4BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6E6A1FD41F78D299BACB52F /* libPods-VanessaPod.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A480D6F8265EC3890094E460 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480D70E265EC38A0094E460 /* VanessaPod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A480D6FC265EC3890094E460 /* VanessaPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A480D711265EC38A0094E460 /* Build configuration list for PBXNativeTarget "VanessaPod" */;
+			buildPhases = (
+				C1CEF42D5A1929070662D9EA /* [CP] Check Pods Manifest.lock */,
+				A480D6F8265EC3890094E460 /* Headers */,
+				A480D6F9265EC3890094E460 /* Sources */,
+				A480D6FA265EC3890094E460 /* Frameworks */,
+				A480D6FB265EC3890094E460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanessaPod;
+			productName = VanessaPod;
+			productReference = A480D6FD265EC3890094E460 /* VanessaPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A480D705265EC38A0094E460 /* VanessaPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A480D714265EC38A0094E460 /* Build configuration list for PBXNativeTarget "VanessaPodTests" */;
+			buildPhases = (
+				A480D702265EC38A0094E460 /* Sources */,
+				A480D703265EC38A0094E460 /* Frameworks */,
+				A480D704265EC38A0094E460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A480D709265EC38A0094E460 /* PBXTargetDependency */,
+			);
+			name = VanessaPodTests;
+			productName = VanessaPodTests;
+			productReference = A480D706265EC38A0094E460 /* VanessaPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A480D6F4265EC3890094E460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A480D6FC265EC3890094E460 = {
+						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
+					};
+					A480D705265EC38A0094E460 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A480D6F7265EC3890094E460 /* Build configuration list for PBXProject "VanessaPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A480D6F3265EC3890094E460;
+			productRefGroup = A480D6FE265EC3890094E460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A480D6FC265EC3890094E460 /* VanessaPod */,
+				A480D705265EC38A0094E460 /* VanessaPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A480D6FB265EC3890094E460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A480D704265EC38A0094E460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C1CEF42D5A1929070662D9EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VanessaPod-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A480D6F9265EC3890094E460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480D718265EC4570094E460 /* CreateView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A480D702265EC38A0094E460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A480D70C265EC38A0094E460 /* VanessaPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A480D709265EC38A0094E460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A480D6FC265EC3890094E460 /* VanessaPod */;
+			targetProxy = A480D708265EC38A0094E460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A480D70F265EC38A0094E460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A480D710265EC38A0094E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A480D712265EC38A0094E460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD2A9D77CB632169E1ACEFF0 /* Pods-VanessaPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VanessaPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.VanessaPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A480D713265EC38A0094E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5859AE99DE3B5C9376EBFB28 /* Pods-VanessaPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VanessaPod/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.VanessaPod;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A480D715265EC38A0094E460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VanessaPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.VanessaPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A480D716265EC38A0094E460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VanessaPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = teste.VanessaPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A480D6F7265EC3890094E460 /* Build configuration list for PBXProject "VanessaPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A480D70F265EC38A0094E460 /* Debug */,
+				A480D710265EC38A0094E460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A480D711265EC38A0094E460 /* Build configuration list for PBXNativeTarget "VanessaPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A480D712265EC38A0094E460 /* Debug */,
+				A480D713265EC38A0094E460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A480D714265EC38A0094E460 /* Build configuration list for PBXNativeTarget "VanessaPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A480D715265EC38A0094E460 /* Debug */,
+				A480D716265EC38A0094E460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A480D6F4265EC3890094E460 /* Project object */;
+}

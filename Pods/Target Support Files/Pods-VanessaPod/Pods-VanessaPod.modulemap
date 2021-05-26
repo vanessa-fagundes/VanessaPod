@@ -1,0 +1,6 @@
+module Pods_VanessaPod {
+  umbrella header "Pods-VanessaPod-umbrella.h"
+
+  export *
+  module * { export * }
+}
