@@ -18,6 +18,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/vanessa-fagundes/VanessaPod.git", :tag => "#{spec.version}" }
 
   spec.platform       = :ios, "10.0"
+
+  spec.source_files  = "VanessaPod/**/*.{h,m,swift}"
   
   spec.dependency 'Cartography', '4.0.0'
 
